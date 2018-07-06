@@ -1,0 +1,23 @@
+{
+  "name": "week5-comic_viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sodin925/Week5-Comic_Viewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sodin925/Week5-Comic_Viewer/issues"
+  },
+  "homepage": "https://github.com/sodin925/Week5-Comic_Viewer#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
