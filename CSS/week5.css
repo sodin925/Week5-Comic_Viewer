@@ -19,16 +19,96 @@
 
 .item1 {
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: 620px;
+  height: 120px; }
 
-.item3 > .title {
-  width: 317px;
-  height: 52px;
-  color: #FFFFFF;
-  font-size: 36px;
-  text-align: center;
-  line-height: 52px;
-  background-color: #000000; }
+.item2 > img {
+  width: 292px;
+  height: 438px; }
+
+.row {
+  position: relative;
+  display: inline-block;
+  width: 100%; }
+  .row > * {
+    display: inline-block; }
+  .row .item3 {
+    position: absolute;
+    width: calc(100% - 292px);
+    height: 100%; }
+    .row .item3 > .title {
+      font-size: 36px;
+      line-height: 52px;
+      font-weight: bold;
+      color: #FFFFFF;
+      text-align: center;
+      background-color: #000000; }
+    .row .item3 > .info {
+      text-align: center;
+      margin: 0 auto; }
+      .row .item3 > .info > * {
+        font-size: 16px; }
+      .row .item3 > .info > ul > #genres {
+        position: absolute;
+        display: inline-block;
+        left: 30px;
+        font-weight: bold;
+        margin-top: 10px; }
+      .row .item3 > .info > ul > gt {
+        position: absolute;
+        margin-top: 10px;
+        right: 90px; }
+      .row .item3 > .info > ul > #author {
+        position: absolute;
+        display: inline-block;
+        left: 30px;
+        font-weight: bold;
+        margin-top: 40px; }
+      .row .item3 > .info > ul > at {
+        position: absolute;
+        margin-top: 40px;
+        right: 123px; }
+      .row .item3 > .info > ul > #status {
+        position: absolute;
+        display: inline-block;
+        left: 30px;
+        font-weight: bold;
+        margin-top: 70px; }
+      .row .item3 > .info > ul > st {
+        position: absolute;
+        margin-top: 70px;
+        right: 169px; }
+      .row .item3 > .info > ul > #rate {
+        position: absolute;
+        display: inline-block;
+        left: 30px;
+        font-weight: bold;
+        margin-top: 100px; }
+      .row .item3 > .info > ul > .star {
+        position: absolute;
+        margin-top: 100px;
+        left: 100px; }
+      .row .item3 > .info > ul > #summary {
+        position: absolute;
+        display: inline-block;
+        left: 30px;
+        font-weight: bold;
+        margin-top: 150px; }
+      .row .item3 > .info > ul > .www {
+        width: 300px;
+        height: 200px;
+        left: 30px;
+        position: absolute;
+        margin-top: 200px;
+        text-align: left; }
+      .row .item3 > .info > ul > .wwww {
+        width: 300px;
+        height: 200px;
+        left: 30px;
+        position: absolute;
+        margin-top: 270px;
+        text-align: left; }
 
 .item4 {
   margin-top: 20px;
